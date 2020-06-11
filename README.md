@@ -119,3 +119,32 @@ My journal with classified tracks to master this beautiful programming language 
           
         }
 
+## Data Structures:
+### Array:
+
+   - Declaration :
+     using var:
+     
+	      var <array_name> [<size>]<datatype>
+	      var myNumberArray [6] int
+	      
+      using shorhand declartion:
+      
+              <array_name> := [<size>]<datatype>{value1, value2}  
+              myColorArray := [4]string{"Red", "Green", "Blue", "Yellow"}
+	      
+	      
+   - Accessing and assigning values by index:
+             
+	     //Assigning
+             var programmer [3]string
+             programmer[0] = "John Carmack"
+             programmer[1] = "Sean Parker"
+             programmer[2] = "Torvalds"
+             
+             //Accessing by index
+	     fmt.Println(programmer[0]) 
+	      
+	      
+	      
+     
