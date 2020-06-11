@@ -64,3 +64,23 @@ My journal with classified tracks to master this beautiful programming language 
                  myNumber = 2
                  myBoolean = false
             )     
+
+## conditional statement:
+   -if:
+         
+          if <condition> {
+                    <do something>
+                }
+   -else if
+          
+          if <condition_for_if> {
+                    <do something>
+                }
+          else if <condition_for_else_if> {
+                    <do something>
+                }
+          else {
+                    <do something when none of the above conditions met>
+               }
+               
+               
