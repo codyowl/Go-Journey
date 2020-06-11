@@ -95,3 +95,27 @@ My journal with classified tracks to master this beautiful programming language 
                <do_something_when_none_of_thecase_mathces>
            }
                   
+## for loop use cases:
+    
+ - Using for like while loop:
+    
+       counter := 0
+       for counter < 10 {
+          fmt.Println(counter)  
+       }
+
+	
+ - The typical for loop :
+    
+        for i := 0; i <= 10; i++ {
+            fmt.Println(i)
+        }
+
+ - Infinite loop (like While True in python)
+	
+
+        for {
+           fmt.Println("I will be printed infinitely ! ")
+          
+        }
+
