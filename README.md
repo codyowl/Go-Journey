@@ -83,4 +83,15 @@ My journal with classified tracks to master this beautiful programming language 
                     <do something when none of the above conditions met>
                }
                
-               
+    
+   -switch :
+          
+           switch <condition> {
+           case <condition_1>:
+               <do_something_if_this_case_matches>
+           case <condition_2>:
+               <do_something_if_This_case_matches>
+           default:
+               <do_something_when_none_of_thecase_mathces>
+           }
+                  
