@@ -209,4 +209,46 @@ My journal with classified tracks to master this beautiful programming language 
                 for key, value := range <map_name> {
                          fmt.Printf("The value of key is %v & value is %v", key, value)
                 }
-     
+   
+### Struct
+
+   - Declaration :
+
+                 type <struct_name> struct {
+                         <varialbe_name_1> <datatype>
+                         <variable_name_2> <datatype>
+                  }
+
+                 type Book struct {
+                          authorName string
+                          bookName string
+			  genre string
+                          numberOfPages int
+                  }
+
+
+
+   - Assigning :
+
+
+                 <struct_variable> := <struct_name>{
+                          <struct_field_1> : <value_1>
+                          <struct_field_2> : <value_2>
+                   }
+		   
+		 b := Book { 
+                           authorName : "Josephine Cox",
+                           bookName : "The Loner",
+                           genre : "Domestic fiction",
+                           numberOfPages : 345
+                   }
+		   
+
+   - Accessing :
+   
+                 <struct_variable_name>.<struct_field_name>
+
+                 fmt.Println(b.bookName)
+		   
+                             
+ 
