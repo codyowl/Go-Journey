@@ -120,7 +120,7 @@ My journal with classified tracks to master this beautiful programming language 
         }
 
 ## Data Structures:
-### Array:
+### Array(Immutable):
 
    - Declaration :
      using var:
@@ -145,6 +145,29 @@ My journal with classified tracks to master this beautiful programming language 
              //Accessing by index
 	     fmt.Println(programmer[0]) 
 	      
-	      
+### slice(Mutable)
+
+   - Declaration : 
+     using var(Note : similar to array but we don't need to specify the size):
+               
+	       var <sice_name> []<data_type>
+               var musicians []string
+               func main() {
+                     musicians = []string{"Bob dylan", "Jimi Hendrix", "Bob Marley"}
+               }
+	       
+     using shorthand notation:
+     
+               <slice_name> := []<data_type>{value1, value2, value3}
+               var musicians := []string{"Bob dylan", "Jimi Hendrix", "Bob Marley"} 
+	       
+     using make builtin functionn:
+     
+     	       <slice_name> := make([]<data_type>, <size>)
+	       my_make_slice := make([]string, 3)
+	       my_make_slice[0] = "first make slice value"
+               my_make_slice[1] = "second make slice value"
+	       my_make_slice[2] = "third make slice value"
+   
 	      
      
