@@ -169,5 +169,44 @@ My journal with classified tracks to master this beautiful programming language 
                my_make_slice[1] = "second make slice value"
 	       my_make_slice[2] = "third make slice value"
    
-	      
+### Map(Mutable)
+
+   - Declaration :
+     using var :
+     
+              var <map_name> = map[<key_data_type]<value_data_type>
+              <map_name> = map[<key_data_type>]<value_data_type> {
+                      key : value,
+                      key : value,
+                      key : value
+               }
+         
+              var couples = map[string]string
+	      func main() {
+	           couples = map[string]string {
+                      "Thala" : "Shalini",
+                      "Thalaivar" : "Latha",
+                      "Surya" : "Jyothika"
+                          }
+               }
+ 
+       using shorthand declaration
+       
+               <map_name> := map[<key_data_type>]<value_data_type> {
+                       key : value,
+                       key : value,
+                       key : value
+                }
+
+                founders := map[string]string{
+                       "Drobbox" : "Drew",
+                       "Valve" : " Gabe",
+                       "Napster" : "Sean parker"
+                }
+
+   - Iterating a map(using range function)
+     
+                for key, value := range <map_name> {
+                         fmt.Printf("The value of key is %v & value is %v", key, value)
+                }
      
