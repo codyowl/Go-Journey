@@ -64,6 +64,33 @@ My journal with classified tracks to master this beautiful programming language 
                  myNumber = 2
                  myBoolean = false
             )     
+## Pointers:
+   - Declaring pointer:
+   
+	var firstname *string 
+	Here, firstname is a pointer with a value string
+
+   - Dereferencing :
+   
+   	 
+	*firstname = "john"
+	
+	var firstname *string = new(string)
+	*firstname = "john"
+	fmt.Println(*firstname)
+            Note : we have to use dereferencing operator to denote a pointer in pringln we do have *firstname
+	    
+	
+	firstname := "john"
+	pointer := &firstname
+	fmt.Println(*pointer)
+
+	Now, changing firstname will reflect while printing the pointer variable
+	firstname := "hai"
+	fmt.Println(*pointer) => this will pring “hai”
+
+
+	
 
 ## conditional statement:
    -if:
