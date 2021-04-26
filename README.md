@@ -278,7 +278,7 @@ My journal with classified tracks to master this beautiful programming language 
                  fmt.Println(b.bookName)
 		   
                              
- ## Functions
+## Functions
 
     - Declaration :
                  
