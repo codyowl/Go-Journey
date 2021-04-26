@@ -280,10 +280,41 @@ My journal with classified tracks to master this beautiful programming language 
                              
  ## Functions
 
-    Syntax:
-                 func <function_name>(<parameter_name> <datatype>) <return_data_type> {
+    - Declaration :
+                 
+				 func <function_name>(<parameter_name> <datatype>) <return_data_type> {
                                  <function_body>
                  }
-                 
+
+    - Calling:
+    
+                 var <function_call_variable> <datatype>             
+
+
+    Note : A function can return a list of values all the datatypes should be mentioned on return type.
+    We don't need to specify function return type if its not returning any thing.
+
+    Example of a simple addition function:
+
+    			 import "fmt"
+
+    			 func main(){
+    			 	var a int = 10
+    			 	var b int = 20
+    			 	var add_function_variable int
+
+    			 	add_function_variable = add(a, b)
+
+    			 	fmt.Printf("Sum value is : %d\n", add_function_variable)
+
+
+    			 }
+
+    			 # declaring function with parameter their datatype and return data type 	
+				 func add(first_number, second_number, int) int {
+				 	var result int
+				 	result = first_number + second_number
+				 	return result
+				 }                
 
 
