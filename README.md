@@ -278,4 +278,12 @@ My journal with classified tracks to master this beautiful programming language 
                  fmt.Println(b.bookName)
 		   
                              
- 
+ ## Functions
+
+    Syntax:
+                 func <function_name>(<parameter_name> <datatype>) <return_data_type> {
+                                 <function_body>
+                 }
+                 
+
+
