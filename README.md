@@ -319,8 +319,9 @@ My journal with classified tracks to master this beautiful programming language 
 			 }                
 
 
-    - Multiple returns
+   - Multiple returns:
 
+    
         package main
 
         import (
