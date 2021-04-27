@@ -318,3 +318,22 @@ My journal with classified tracks to master this beautiful programming language 
 				 }                
 
 
+    - Multiple returns
+
+        package main
+
+        import (
+          "fmt"
+        )
+
+        func multipleReturn(x,y int)(int, int){
+          return x + 2, y + 3
+          }
+
+        func main() {
+          var a int = 10
+          var b int = 20
+          var funcVariable1, funcVariable2 = multipleReturn(a,b)
+          fmt.Printf("Addition result of first variable: %d", funcVariable1)
+          fmt.Printf("\nAddition result of second variable: %d", funcVariable2)
+        }
