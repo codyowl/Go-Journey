@@ -339,3 +339,28 @@ My journal with classified tracks to master this beautiful programming language 
 	  fmt.Printf("Addition result of first variable: %d", funcVariable1)
 	  fmt.Printf("\nAddition result of second variable: %d", funcVariable2)
 	}
+
+
+   
+   - Named Return:
+
+     We can define named return as a part of function by defining the name along with the data type, the function can have return alone
+     
+     	package main
+
+	import (
+		"fmt"
+	)
+
+	func main() {
+
+		var x int = add(20,30)
+		fmt.Printf("The result of addition is: %d", x)
+	}
+
+	func add(a,b int)(result int){
+		result = a + b
+		return 
+	}	
+     
+     
